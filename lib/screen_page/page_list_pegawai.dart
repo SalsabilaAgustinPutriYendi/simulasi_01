@@ -469,7 +469,7 @@ class _PageTambahKaryawanState extends State<PageTambahKaryawan> {
 
                       // Mengirim data ke server
                       http.post(
-                        Uri.parse('http://192.168.37.142/edukasi_server/simpanPegawai.php'),
+                        Uri.parse('http://192.168.89.194/edukasi_server/simpanPegawai.php'),
                         body: dataKaryawan,
                       ).then((response) {
                         // Memeriksa respons dari server
